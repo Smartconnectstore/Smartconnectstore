@@ -3,7 +3,7 @@ const nextConfig = {
   webpack(config) {
     return config
   },
-  experimental: {} // disable turbo or any other experimental
+  experimental: {} // disables turbo
 }
 
 module.exports = nextConfig
