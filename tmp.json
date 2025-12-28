@@ -1,0 +1,2 @@
+jq '.scripts.vercel-build="next build" | .scripts.dev="next dev" | .scripts.start="next start" | .type="module"' package.json > package.tmp.json
+mv package.tmp.json package.json
